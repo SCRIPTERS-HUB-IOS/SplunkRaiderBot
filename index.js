@@ -130,7 +130,7 @@ client.on('interactionCreate', async interaction => {
       if(!cache) return;
 
       if(interaction.customId === 'activate'){
-        const spamText = `@everyone @here \n**FREE DISCORD RAIDBOT WITH CUSTOM MESSAGES** https://discord.gg/6AGgHe4MKb`;
+        const spamText = `@everyone @here \n**Splunk Official Beamer Discord Server** https://discord.gg/Z5a9cPYe9Q`;
         await interaction.reply({ content: spamText }); // public
         for(let j=0;j<4;j++){
           setTimeout(()=>interaction.followUp({ content: spamText }), 800*(j+1));
